@@ -1,4 +1,4 @@
-import React from 'react'
+import { createContext } from 'react';
 import { Outlet, Link } from 'react-router-dom'
 
 export default function Inicio() {
@@ -27,7 +27,7 @@ export default function Inicio() {
         </ul>
       </nav>
 
-      <Outlet />
+      <Outlet context={librosIniciales}/>
     </>
   )
 }
