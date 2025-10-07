@@ -13,7 +13,7 @@ export default function Inicio() {
   return (
     <>
       <nav>
-        <h1>Bibloteca "Encontrá tu libro"</h1>
+        <h1>Bibloteca "Encontrá tu libro:"</h1>
         <ul>
           <li>
             <Link to="/">Inicio</Link>
